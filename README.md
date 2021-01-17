@@ -20,23 +20,23 @@ I used Lumen (8.2.1) (Laravel Components ^8.0)
 Please clone the repository *git clone https://github.com/lesterjin/code-challenge.git*
 Please Modify the .env file  **config the database, root and pass, I have used the database name challenge**
 
-Please Run 
+**Please Run** 
 - *composer install*
 
-Please Run 
+**Please Run** 
 - *php artisan migrate*
 
-To fetch the *customers* from the JSON API:
+**To fetch the *customers* from the JSON API:**
   - To use the **Console**, in the terminal, please type *php artisan import:customer*
   - To use the default seeder, please use the *php artisan db:seed*
 
-To run the lumen framework, please type 
+**To run the lumen framework, please type**
 - *php -S localhost:8000 -t public*
 
-For the list of customers:
+**For the list of customers:**
 - please visit */api/customers*
 
-To view single customer:
+**To view single customer:**
 - please visit */api/customers/{id}* example: */api/customers/5*
 
 ## Developer Notes Guide:
