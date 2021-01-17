@@ -23,10 +23,9 @@ class Importer extends Command
     {
 
 
-
         if ($this->confirm('This will insert 100 customers record to the database? Please confirm')) {
 
-            
+
             $seeder = new \Database\Seeders\CustomerTableSeeder();
             $seeder->run();
             $this->alert("Customer Successfully imported.");
