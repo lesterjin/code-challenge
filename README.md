@@ -10,7 +10,7 @@ I used Lumen (8.2.1) (Laravel Components ^8.0)
 ## Features Created
 
 - I have fetched a 100 users from the given 3rd party API
-- Retrieved users data has been saved in **customer** table
+- Retrieved users data have been saved in **customer** table
 - Imported customers are only **Australian**
 - Importer can be used in any part of the application
 - Console command has been created
@@ -18,7 +18,7 @@ I used Lumen (8.2.1) (Laravel Components ^8.0)
 
 ## Tutorials
 Please clone the repository ***git clone https://github.com/lesterjin/code-challenge.git***
-Please Modify the .env file  **config the database, root and pass, I have used the database name challenge**
+Please Modify the .env file  **config the database, root and pass, I have used the database name 'challenge'**
 
 **Please Run** 
 - *composer install*
